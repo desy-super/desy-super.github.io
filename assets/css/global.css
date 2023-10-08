@@ -1,5 +1,4 @@
 /*  ============= WEB BROWSER RESETS ============ */
-
 * { margin: 0; padding: 0; border: none }
 *, *::before, *::after { box-sizing: border-box }
 html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
@@ -10,9 +9,10 @@ body { line-height: 1.5; min-height: 100vh }
 img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
-body { background-color: antiquewhite; }
 
-/* ====== PADDING AROUND WEB PAGE BODY CONTENT ======  */
+body { background-color: lightgreen; }
+
+/* ================= ENDS ================ */
 /* Desktops */
 @media (min-width: 768px) {
     body { padding: 4% 20% }
@@ -22,33 +22,40 @@ body { background-color: antiquewhite; }
  @media (max-width: 767px) {
     body { padding: 8% 5% }
  }
-body { padding: 4% 20% }
-h1 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 44px;
-    letter-spacing: -2px;
-    margin-bottom: 32px;
-    color: brown;
 
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 78px;
+    font-weight: normal;
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+    line-height: 1.2;
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 4px;
-    color: brown;
+    font-size: 42px;
+    letter-spacing: 6px;
+    margin-bottom: 48px;
+    line-height: 1.2;
 }
 
 h3 {
     font-size: 24px;
-    margin-bottom: 4px;
-    color: brown;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
 
 p {
-    font-family: sans-serif;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
 }
 
-a { color: brown; }
+
+
+a { color: darkgreen; }
